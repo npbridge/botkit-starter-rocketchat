@@ -1,4 +1,11 @@
 # botkit-starter-rocketchat
+
+## Our Contribution
+
+We are using a custom botkit-rocketchat-connect - https://github.com/npbridge/botkit-rocketchat-connector to have intent name and confidence score in the messages.
+
+## Original Documentation
+
 A starter kit for building a custom Rocket.Chat bot with Botkit Studio.
 
 This is a work in progress for the two communities to collaborate on to achieve the integration proposed in this issue on the main Rocket.Chat project: https://github.com/RocketChat/Rocket.Chat/issues/9937
@@ -46,7 +53,7 @@ MENTION_ROOMS=<CHANNEL THAT THe BOT WILL ONLY ANSWER WHEN MENTIONED>
 RESPOND_TO_DM=<ENABLE BOT TO RESPOND TO DIRECT MESSAGES>
 RESPOND_TO_LIVECHAT=<ENABLE BOT TO RESPOND TO LIVE CHAT>
 RESPOND_TO_EDITED=<ENABLE BOT TO RESPOND TO EDITED MESSAGES>
-```	
+```
 
 See the section to Configure RocketChat.
 
